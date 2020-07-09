@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Semantic Elements Deep dive</title>
+	<style>
+		#Sec1 {
+			border: 2px solid black;
+			background-color: lightgray;
+		}
+
+		#Sec2 {
+			border: 2px solid black;
+			background-color: gray;
+		}
+
+		#Art1 {
+			background-color: darkgray;
+			padding: 5px;
+			margin: 0
+		}
+    .article2{
+      margin:10px;
+      padding:5px;
+      border:2px solid blue;
+      background:white;
+    }
+	</style>
+</head>
+
+<body>
+	<!-- Section -->
+	<section id="Sec1">
+		<h2>I am a nice heading in section 1</h2>
+		<p>I am a cool paragraph</p>
+	</section>
+	<section id="Sec2">
+		<h2>I am a nice heading in section 2</h2>
+		<p>I am a cool paragraph</p>
+	</section>
+	<article id="Art1">
+		<h2>I am an article heading</h2>
+		<p>Look at me bro!</p>
+		<article class="article2">
+			<h2>I am a sub article heading</h2>
+			<p>Look at me bro!</p>
+		</article>
+    		<article class="article2">
+			<h2>I am a 2nd sub article heading</h2>
+			<p>Look at me bro!</p>
+		</article>
+	</article>
+</body>
+
+</html>
